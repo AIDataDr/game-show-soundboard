@@ -76,6 +76,3 @@ The audio files are stored in the `sounds` folder. To replace a sound, either ke
 
 Button appearance and animations are controlled by `style.css`. Playback behavior and keyboard shortcuts are controlled by `script.js`.
 
-## 📄 License
-
-No license has been selected yet. Add a `LICENSE` file before publishing if you want to specify how others may use, modify, or redistribute the project.
