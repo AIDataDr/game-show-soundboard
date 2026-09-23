@@ -41,7 +41,7 @@ GitHub will provide a public URL for the soundboard after deployment.
 
 Once published, you can replace this line with your live link:
 
-**[▶ Launch the Game Show Soundboard](https://YOUR-USERNAME.github.io/game-show-soundboard/)**
+**[▶ Launch the Game Show Soundboard](https://AIDataDr.github.io/game-show-soundboard/)**
 
 ## 📁 Project Structure
 
