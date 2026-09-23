@@ -51,16 +51,19 @@ kbd { font: 700 .72rem/1 system-ui; background: rgba(0,0,0,.22); padding: 7px 9p
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
 }
 .site-footer {
-    margin-top: 3rem;
-    padding: 1.5rem;
-    text-align: center;
-    font-size: 0.9rem;
-    opacity: 0.75;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.75;
 }
 .site-footer a {
-    color: inherit;
-    font-weight: 600;
+  color: #66b3ff;
+  font-weight: 600;
+  text-decoration: none;
 }
 .site-footer a:hover {
-    opacity: 0.8;
+  color: #99ccff;
+  text-decoration: underline;
+  opacity: 0.8;
 }
