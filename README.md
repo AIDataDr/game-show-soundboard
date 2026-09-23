@@ -9,8 +9,8 @@ The project uses only **HTML, CSS, and vanilla JavaScript**. There are no framew
 | Button | Sound | Keyboard |
 | --- | --- | --- |
 | ✅ **Correct!** | Short winner/correct bell | `1` |
-| ⭐ **Finished!** | Longer victory fanfare | `2` |
-| ❌ **Wrong!** | Wrong-answer buzzer | `3` |
+| ❌ **Wrong!** | Wrong-answer buzzer | `2` |
+| ⭐ **Finished!** | Longer victory fanfare | `3` |
 | ⏹ **Stop** | Stops and resets the current sound | `Space` |
 
 The soundboard also includes a volume slider and an animated visual response while a sound is playing.
