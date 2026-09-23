@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111827">
+  <title>Game Show Soundboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="soundboard">
+    <header>
+      <p class="eyebrow">GAME SHOW</p>
+      <h1>Soundboard</h1>
+      <p class="subtitle">Big buttons. Instant feedback. A little celebration.</p>
+    </header>
+
+    <section class="buttons" aria-label="Sound buttons">
+      <button class="sound-button correct" data-sound="correct" aria-label="Play correct winner sound">
+        <span class="icon">✓</span><span>Correct!</span><kbd>1</kbd>
+      </button>
+      <button class="sound-button finished" data-sound="finished" aria-label="Play finished celebration sound">
+        <span class="icon">★</span><span>Finished!</span><kbd>2</kbd>
+      </button>
+      <button class="sound-button wrong" data-sound="wrong" aria-label="Play wrong answer buzzer">
+        <span class="icon">✕</span><span>Wrong!</span><kbd>3</kbd>
+      </button>
+    </section>
+
+    <section class="controls" aria-label="Playback controls">
+      <button id="stopButton" class="stop-button" type="button">■ Stop <kbd>Space</kbd></button>
+      <label class="volume-control" for="volume">
+        <span>🔊 Volume</span>
+        <input id="volume" type="range" min="0" max="1" step="0.05" value="0.8">
+        <output id="volumeValue" for="volume">80%</output>
+      </label>
+    </section>
+
+    <p id="status" class="status" aria-live="polite">Ready</p>
+
+    <audio id="correct" preload="auto" src="sounds/correct_winner.wav"></audio>
+    <audio id="finished" preload="auto" src="sounds/finished.wav"></audio>
+    <audio id="wrong" preload="auto" src="sounds/wrong_answer_buzzer.wav"></audio>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
